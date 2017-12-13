@@ -5,6 +5,11 @@ const IndexPage = ({data}) => {
  // const { edges: posts } = data.allMarkdownRemark
     return (
       <div>
+
+<div style={{ color: `blue` }}>
+   <h1>Hello Gatsby!</h1>
+ </div>
+
         {/* {posts.map(({node: post}) => {
           const { frontmatter } = post
 
