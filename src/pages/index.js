@@ -10,6 +10,13 @@ const IndexPage = ({data}) => {
    <h1>Hello Gatsby!</h1>
  </div>
 
+    <div>
+      <Link to="/page-2/">Link</Link>
+    </div>
+    <div>
+      <Link to="/counter/">Counter</Link>
+    </div>
+
         {/* {posts.map(({node: post}) => {
           const { frontmatter } = post
 
