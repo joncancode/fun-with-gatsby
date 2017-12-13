@@ -6,6 +6,6 @@ tags: ['gatsby', 'tuesday', 'react', 'graphql']
 excerpt: "This is the first post"
 ---
 
-### Tuesday's Post
+## Tuesday's Post
 
 Something something, blog post. 
