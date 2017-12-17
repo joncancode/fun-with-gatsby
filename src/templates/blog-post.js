@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 const Template = ({data, location}) => {
     const {markdownRemark: post} = data
     const {frontmatter, html} = post
+    const { title, date } = frontmatter
 
     return (
         <div>
@@ -13,7 +14,7 @@ const Template = ({data, location}) => {
             <div>
                 <h1>{title}</h1>
                 <h3>{date}</h3>
-                <div dangerouslySetInnerHTML={{__html}} />
+                <div dangerouslySetInnerHTML={{__html: html}} />
             </div>
         </div>
     )
