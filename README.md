@@ -1,3 +1,5 @@
+### Blog running at jh-gatsby-blog.surge.sh
+
 # gatsby-starter-default
 The default Gatsby starter
 
