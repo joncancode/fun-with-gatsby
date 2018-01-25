@@ -30,6 +30,21 @@ const Header = () => (
           Jon's Blog
         </Link>
       </h1>
+      <div>
+      <Link to="/counter">
+          counter 
+      </Link>
+      </div>
+      <div>
+      <Link to="/blog">
+          blog 
+      </Link>
+      </div>
+      <div>
+      <Link to="/about">
+          about
+      </Link>
+      </div>
     </div>
   </div>
 )
