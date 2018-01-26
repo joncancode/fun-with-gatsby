@@ -8,8 +8,11 @@ import './index.css'
 const Header = () => (
   <div
     style={{
-      background: '#337ab7',
+      background: 'white',
       marginBottom: '1rem',
+      borderBottom: '3px solid #6abaef',
+      maxWidth: '90%',
+      margin: 'auto'
     }}
   >
     <div
@@ -20,10 +23,10 @@ const Header = () => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
+        <Link className="page-title"
           to="/"
           style={{
-            color: 'white',
+            color: '#fcc29a',
             textDecoration: 'none',
           }}
         >
@@ -52,7 +55,7 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Practice"
+      title="Jon's Blog"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
@@ -64,7 +67,8 @@ const TemplateWrapper = ({ children }) => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        paddingTop: 40,
+
       }}
     >
       {children()}
