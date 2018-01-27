@@ -9,7 +9,9 @@ class About extends React.Component {
     
       render() {
         return (
-          <div>
+          <div
+          style={{height: '60vh'}}
+          >
             <Link to="/">Link back to start</Link>
             <h1>About Me</h1>
             <p>current count: {this.state.count}</p>

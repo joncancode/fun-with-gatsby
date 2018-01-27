@@ -118,8 +118,15 @@ const Blog = () => (
 )
 
 const Footer = () => (
-  <div style={{border: '2px solid #6abaef', backgroundColor: '#6abaef'}}>
-    <p style={{textAlign: 'right', marginRight: '35px', paddingTop: '5px'}}>© Jonathan Haines 2018</p>
+  <div style={{ 
+                backgroundColor: '#6abaef', 
+                width: '100%',
+                bottom: '0px',
+                height: '10%'
+                }}>
+    <p style={{textAlign: 'right', marginRight: '35px', fontSize: '14px', paddingTop: '10px'}}>© Jonathan Haines 2018 
+    <br/>this page was created with <a style={{fontWeight: 'bold'}} href="https://reactjs.org/">React </a> 
+     and <a style={{fontWeight: 'bold'}} href="https://www.gatsbyjs.org/">GatsbyJS</a></p>
   </div>
 )
 
@@ -140,8 +147,10 @@ const TemplateWrapper = ({ children }) => (
     >
     <div style={styles.posts}
     >{children()}</div>
-      <Footer/>
+    <div >
     </div>
+    </div>
+    <Footer />
   </div>
 )
 

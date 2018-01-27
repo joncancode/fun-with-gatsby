@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Projects = () => (
-  <div>
+  <div 
+  style={{height: '60vh'}}
+  >
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>

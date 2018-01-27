@@ -9,6 +9,7 @@ const IndexPage = ({data}) => {
           const { frontmatter } = post
           return(
             <div>
+              
               <h2 style={{backgroundColor: 'lightGreen'}}>
                 <Link to={frontmatter.path}>
                 {frontmatter.title}
