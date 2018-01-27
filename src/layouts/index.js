@@ -18,7 +18,7 @@ const styles = {
     maxWidth: 960,
   },
   pageTitle: {
-    fontFamily: 'Courgette, cursive',
+    fontFamily: 'Indie Flower, cursive',
     margin: 0,
     fontSize: 36,
     fontWeight: 'bold',
@@ -28,7 +28,7 @@ const styles = {
     borderTop: '3px solid #6abaef',
     maxWidth: '90%',
     margin: '0 auto',
-    paddingTop: '15px',
+    padding: '15px 0px 20px 0px',
     textAlign: 'right'
   },
   navLinks: {
@@ -111,7 +111,7 @@ const Blog = () => (
 
 const Footer = () => (
   <div style={{border: '2px solid #6abaef', backgroundColor: '#6abaef'}}>
-    <p style={{textAlign: 'right', marginRight: '35px', paddingTop: '10px'}}>© Jonathan Haines 2018</p>
+    <p style={{textAlign: 'right', marginRight: '35px', paddingTop: '5px'}}>© Jonathan Haines 2018</p>
   </div>
 )
 
@@ -123,6 +123,8 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link rel="icon" type="image/png" href="images/smile2.png" sizes="32x32"
+      link rel="icon" type="image/png" href="images/smile2.png" sizes="16x16"/>
     />
     <Header />
     <Blog />
