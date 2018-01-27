@@ -63,22 +63,22 @@ const Header = () => (
         </Link>
       </div>
       <span >
-<a style={styles.socialLinks} href="//medium.com/@jc.haines19/">
+<a style={styles.socialLinks} target="_new" href="//medium.com/@jc.haines19/">
     <img src="images/medium.png" alt="logo-medium" height="30" width="30"/>
 </a>
-<a style={styles.socialLinks} href="//facebook.com/jonathan.haines.3">
+<a style={styles.socialLinks} target="_new" href="//facebook.com/jonathan.haines.3">
     <img src="images/facebook.png" alt="logo-facebook" height="30" width="30"/>
 </a>
-<a style={styles.socialLinks} href="//instagram.com/_jonstagram_/">
+<a style={styles.socialLinks} target="_new" href="//instagram.com/_jonstagram_/">
  <img src="images/instagram.png" alt="logo-instagram" height="30" width="30"/> 
 </a>
-<a style={styles.socialLinks} href="//angel.co/jonathan-haines?public_profile=1">
+<a style={styles.socialLinks} target="_new" href="//angel.co/jonathan-haines?public_profile=1">
  <img src="images/angel.png" alt="logo-angel" height="30" width="30"/> 
 </a>
-<a style={styles.socialLinks} href="//linkedin.com/in/jonathanhaines1/">
+<a style={styles.socialLinks} target="_new" href="//linkedin.com/in/jonathanhaines1/">
  <img src="images/linkedin.png" alt="logo-linkedin" height="30" width="30"/> 
 </a>
-<a style={styles.socialLinks} href="//github.com/joncancode">
+<a style={styles.socialLinks} target="_new" href="//github.com/joncancode">
  <img src="images/github.png" alt="logo-github" height="30" width="30"/> 
 </a>
       </span>
@@ -98,9 +98,9 @@ const Blog = () => (
           style={styles.navLinks}>
           counter    
       </Link> */}
-      <Link to="/blog"
+      <Link to="/projects"
           style={styles.navLinks}>
-          blog 
+          projects 
       </Link>
       <Link to="/about"
           style={styles.navLinks}>
