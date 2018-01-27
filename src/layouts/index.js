@@ -3,6 +3,14 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import medium from './images/medium.png'
+import facebook from './images/facebook.png'
+import instagram from './images/instagram.png'
+import angel from './images/angel.png'
+import linkedin from './images/linkedin.png'
+import github from './images/github.png'
+import smile from './images/smile2.png'
+
 import './index.css'
 
 const styles = {
@@ -64,22 +72,22 @@ const Header = () => (
       </div>
       <span >
 <a style={styles.socialLinks} target="_new" href="//medium.com/@jc.haines19/">
-    <img src="images/medium.png" alt="logo-medium" height="30" width="30"/>
+    <img src={medium} alt="logo-medium" height="30" width="30"/>
 </a>
 <a style={styles.socialLinks} target="_new" href="//facebook.com/jonathan.haines.3">
-    <img src="images/facebook.png" alt="logo-facebook" height="30" width="30"/>
+    <img src={facebook} alt="logo-facebook" height="30" width="30"/>
 </a>
 <a style={styles.socialLinks} target="_new" href="//instagram.com/_jonstagram_/">
- <img src="images/instagram.png" alt="logo-instagram" height="30" width="30"/> 
+ <img src={instagram} alt="logo-instagram" height="30" width="30"/> 
 </a>
 <a style={styles.socialLinks} target="_new" href="//angel.co/jonathan-haines?public_profile=1">
- <img src="images/angel.png" alt="logo-angel" height="30" width="30"/> 
+ <img src={angel} alt="logo-angel" height="30" width="30"/> 
 </a>
 <a style={styles.socialLinks} target="_new" href="//linkedin.com/in/jonathanhaines1/">
- <img src="images/linkedin.png" alt="logo-linkedin" height="30" width="30"/> 
+ <img src={linkedin} alt="logo-linkedin" height="30" width="30"/> 
 </a>
 <a style={styles.socialLinks} target="_new" href="//github.com/joncancode">
- <img src="images/github.png" alt="logo-github" height="30" width="30"/> 
+ <img src={github} alt="logo-github" height="30" width="30"/> 
 </a>
       </span>
     
@@ -123,9 +131,8 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-      link rel="icon" type="image/png" href="images/smile2.png" sizes="32x32"
-      link rel="icon" type="image/png" href="images/smile2.png" sizes="16x16"/>
-    />
+      link rel="icon" type="image/png" href={smile} sizes="32x32"
+      link rel="icon" type="image/png" href={smile} sizes="16x16"/>
     <Header />
     <Blog />
     <div
