@@ -110,8 +110,8 @@ const Blog = () => (
 )
 
 const Footer = () => (
-  <div>
-    <p style={{textAlign: 'right', marginRight: '35px'}}>© Jonathan Haines 2018</p>
+  <div style={{border: '2px solid #6abaef', backgroundColor: '#6abaef'}}>
+    <p style={{textAlign: 'right', marginRight: '35px', paddingTop: '10px'}}>© Jonathan Haines 2018</p>
   </div>
 )
 
@@ -131,7 +131,7 @@ const TemplateWrapper = ({ children }) => (
     >
     <div style={styles.posts}
     >{children()}</div>
-    <Footer />
+      <Footer/>
     </div>
   </div>
 )
