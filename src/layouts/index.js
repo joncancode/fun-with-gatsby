@@ -15,7 +15,7 @@ import './index.css'
 
 const styles = {
   body: {
-    backgroundColor: '#e5eeff',
+    backgroundColor: 'white',
   },
   main: {
     maxWidth: '90%',
@@ -48,10 +48,11 @@ const styles = {
     padding: '8px',
   },
   posts: {
-    backgroundColor: 'white',
+    backgroundColor: '#e5eeff',
     maxWidth: '85%',
     margin: '0 auto',
-    paddingLeft: '40px',
+    padding: '50px',
+    borderRadius: '2%'
   }
 }
 
