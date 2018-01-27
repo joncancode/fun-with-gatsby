@@ -9,7 +9,7 @@ const IndexPage = ({data}) => {
           const { frontmatter } = post
           return(
             <div>
-              <h2>
+              <h2 style={{backgroundColor: 'lightGreen'}}>
                 <Link to={frontmatter.path}>
                 {frontmatter.title}
                 </Link>
@@ -19,7 +19,7 @@ const IndexPage = ({data}) => {
               <ul>
                 {post.frontmatter.tags.map(tag => {
                   return(
-                    <li>
+                    <li style={{backgroundColor: 'yellow'}}>
                       <Link to={`/tags/${tag}`}>
                       {tag}
                       </Link>
