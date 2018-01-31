@@ -5,9 +5,9 @@ const Projects = () => (
   <div 
   style={{height: '60vh'}}
   >
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <h1 className="page-title">Hi from the project page</h1>
+    <p>Under construction.</p>
+    <Link style={{marginTop: '40px'}} to="/">Go home</Link>
   </div>
 )
 
