@@ -14,7 +14,7 @@ class About extends React.Component {
           >
             <h1 className="page-title">About Me</h1>
 
-            <p>TEST Hi, I'm
+            <p>Hi, I'm
                 <strong> Jonathan Haines</strong>, a developer from
                 <strong> Brooklyn</strong>,
                 <strong> New York</strong>.
