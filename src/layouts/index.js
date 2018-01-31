@@ -26,14 +26,18 @@ const styles = {
     maxWidth: 960,
   },
   pageTitle: {
-    fontFamily: 'Indie Flower, cursive',
+    fontFamily: 'American Typewriter, serif',
     margin: 0,
-    fontSize: 36,
-    fontWeight: 'bold',
     padding: '25px 0px 15px 0px'
   },
+  pageName: {
+    fontSize: 36,
+    textShadow: '2.5px 2.5px 0 #6abaef',
+    fontWeight: 'bold',
+    color: '#13284a',
+  },
   navGroup: {
-    borderTop: '3px solid #6abaef',
+    borderTop: '3px solid #ff7417',
     maxWidth: '90%',
     margin: '0 auto',
     padding: '15px 0px 20px 0px',
@@ -45,7 +49,7 @@ const styles = {
   },
   socialLinks: {
     color: '#6abaef',
-    padding: '8px',
+    marginLeft: '18px'
   },
   posts: {
     backgroundColor: '#e5eeff',
@@ -66,8 +70,7 @@ const Header = () => (
       <div style={styles.pageTitle}>
         <Link 
           to="/"
-          style={{color: '#13284a'}}
-        >
+          style={styles.pageName}>
           Jonathan Haines
         </Link>
       </div>
@@ -123,7 +126,9 @@ const Footer = () => (
                 backgroundColor: '#6abaef', 
                 width: '100%',
                 bottom: '0px',
-                height: '10%'
+                height: '10%',
+                borderTop: '3px solid #ff7417',
+                marginTop: '50px'
                 }}>
     <p style={{textAlign: 'right', marginRight: '35px', fontSize: '14px', paddingTop: '10px'}}>© Jonathan Haines 2018 
     <br/>this page was created with <a style={{fontWeight: 'bold'}} href="https://reactjs.org/">React </a> 
@@ -133,14 +138,15 @@ const Footer = () => (
 
 const TemplateWrapper = ({ children }) => (
   <div style={styles.body}>
-    <Helmet
+    <Helmet 
       title="Jonathan Haines"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-      link rel="icon" type="image/png" href={smile} sizes="32x32"
-      link rel="icon" type="image/png" href={smile} sizes="16x16"/>
+      // link rel="icon" type="image/png" href={smile} sizes="32x32"
+      // link rel="icon" type="image/png" href={smile} sizes="16x16"
+      />
     <Header />
     <Blog />
     <div
@@ -160,4 +166,3 @@ TemplateWrapper.propTypes = {
 }
 
 export default TemplateWrapper
-

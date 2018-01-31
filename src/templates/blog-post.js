@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 const Template = ({data, location, pathContext}) => {
     const {markdownRemark: post} = data
+    // ^^ same as const post = data.markdownRemark 
     const {frontmatter, html} = post
     const { title, date } = frontmatter
     const {prev, next} = pathContext
@@ -14,7 +15,7 @@ const Template = ({data, location, pathContext}) => {
 
             <div>
                 <h1>{title}</h1>
-                <h3>{date}</h3>
+                <h4>{date}</h4>
                 <div dangerouslySetInnerHTML={{__html: html}} />
            
            <p>
