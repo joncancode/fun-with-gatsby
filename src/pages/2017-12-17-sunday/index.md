@@ -1,12 +1,11 @@
 ---
-path: "/second-post"
-date: "2017-12-17T19:49:26+00:00"
-title: "Second post test"
-tags: ['gatsby', 'sunday', 'react', 'graphql']
-excerpt: "This is the second post"
+path: "/welcome"
+date: "2018-01-27T05:46:00+00:00"
+title: "Welcome to my new site"
+tags: ['new', 'rebrand', 'react', 'graphql', 'gatsbyjs']
+excerpt: "Hey all. Doing a bit of maintanance at the moment, but will eventually have this new site up and running. Thanks for your patience."
 ---
 
-## Sunday's Post
+I'm currently re-hashing this site using React, Gatsby, and Graphql - all pretty cool tools that will allow me to write some more.
 
-Something something, blog post. 
-
+Stay tuned!
