@@ -10,7 +10,7 @@ const IndexPage = ({data}) => {
           return(
             <div>
               
-              <h2 style={{textAlign: 'center'}}>
+              <h2 className="page-title">
                 <Link to={frontmatter.path}>
                 {frontmatter.title}
                 </Link>

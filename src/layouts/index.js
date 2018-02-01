@@ -6,7 +6,6 @@ import Helmet from 'react-helmet'
 import medium from './images/medium.png'
 import facebook from './images/facebook.png'
 import instagram from './images/instagram.png'
-import angel from './images/angel.png'
 import linkedin from './images/linkedin.png'
 import github from './images/github.png'
 import smile from './images/smile2.png'
@@ -48,8 +47,8 @@ const styles = {
     padding: '15px',
   },
   socialLinks: {
-    color: '#6abaef',
-    marginLeft: '18px'
+    // color: '#6abaef',
+    padding: '15px',
   },
   posts: {
     backgroundColor: '#e5eeff',
@@ -75,23 +74,20 @@ const Header = () => (
         </Link>
       </div>
       <span >
-<a style={styles.socialLinks} target="_new" href="//medium.com/@jc.haines19/">
-    <img src={medium} alt="logo-medium" height="30" width="30"/>
-</a>
 <a style={styles.socialLinks} target="_new" href="//facebook.com/jonathan.haines.3">
-    <img src={facebook} alt="logo-facebook" height="30" width="30"/>
-</a>
-<a style={styles.socialLinks} target="_new" href="//instagram.com/_jonstagram_/">
- <img src={instagram} alt="logo-instagram" height="30" width="30"/> 
-</a>
-<a style={styles.socialLinks} target="_new" href="//angel.co/jonathan-haines?public_profile=1">
- <img src={angel} alt="logo-angel" height="30" width="30"/> 
-</a>
-<a style={styles.socialLinks} target="_new" href="//linkedin.com/in/jonathanhaines1/">
- <img src={linkedin} alt="logo-linkedin" height="30" width="30"/> 
+  <img className="social-group"  src={facebook} alt="logo-facebook" height="30" width="30"/>
 </a>
 <a style={styles.socialLinks} target="_new" href="//github.com/joncancode">
- <img src={github} alt="logo-github" height="30" width="30"/> 
+ <img className="social-group"  src={github} alt="logo-github" height="30" width="30"/> 
+</a>
+<a style={styles.socialLinks} target="_new" href="//instagram.com/_jonstagram_/">
+ <img className="social-group"  src={instagram} alt="logo-instagram" height="30" width="30"/> 
+</a>
+<a style={styles.socialLinks} target="_new" href="//linkedin.com/in/jonathanhaines1/">
+ <img className="social-group"  src={linkedin} alt="logo-linkedin" height="30" width="30"/> 
+</a>
+<a style={styles.socialLinks} target="_new" href="//medium.com/@jc.haines19/">
+  <img className="social-group"  src={medium} alt="logo-medium" height="30" width="30"/>
 </a>
       </span>
     
@@ -102,6 +98,7 @@ const Header = () => (
 const Blog = () => (
       <div style={styles.navGroup}>
       <Link 
+          className="nav-group"
           to="/"
           style={styles.navLinks}>
           home
@@ -110,11 +107,15 @@ const Blog = () => (
           style={styles.navLinks}>
           counter    
       </Link> */}
-      <Link to="/projects"
+      <Link 
+          className="nav-group"
+          to="/projects"
           style={styles.navLinks}>
           projects 
       </Link>
-      <Link to="/about"
+      <Link 
+          className="nav-group"
+          to="/about"
           style={styles.navLinks}>
           about
       </Link>
@@ -131,8 +132,8 @@ const Footer = () => (
                 marginTop: '50px'
                 }}>
     <p style={{textAlign: 'right', marginRight: '35px', fontSize: '14px', paddingTop: '10px'}}>© Jonathan Haines 2018 
-    <br/>this page was created with <a style={{fontWeight: 'bold'}} href="https://reactjs.org/">React </a> 
-     and <a style={{fontWeight: 'bold'}} href="https://www.gatsbyjs.org/">GatsbyJS</a></p>
+    <br/>this page was created with <a className="bot-link" href="https://reactjs.org/">React </a> 
+     and <a className="bot-link" href="https://www.gatsbyjs.org/">GatsbyJS</a></p>
   </div>
 )
 

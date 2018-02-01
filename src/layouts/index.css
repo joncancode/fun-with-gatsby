@@ -340,9 +340,11 @@ ul {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
   list-style-position: outside;
   list-style-image: none;
+  list-style-type: none;
 }
 ol {
   margin-left: 1.45rem;
@@ -624,3 +626,28 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.page-title {
+  font-family: 'American Typewriter, serif';
+  font-weight: bold;
+  color: #13284a;
+}
+
+.social-group:hover{
+  background-color: #6abaef;
+  border-radius: 50%;
+}
+
+.nav-group:hover{
+  border-bottom: 3px solid #ff7417;
+}
+
+.bot-link {
+  font-weight: bold;
+  color: #13284a;
+}
+
+.bot-link:hover {
+  border-bottom: 2px solid #ff7417;
+}
+
