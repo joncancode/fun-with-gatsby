@@ -115,9 +115,9 @@ const Blog = () => (
       </Link>
       <Link 
           className="nav-group"
-          to="/about"
+          to="/blog"
           style={styles.navLinks}>
-          about
+          blog
       </Link>
       </div>
 )
