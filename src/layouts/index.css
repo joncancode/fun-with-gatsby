@@ -639,6 +639,11 @@ a:visited {
   color: #13284a;
 }
 
+.blog-title {
+  text-shadow: 0px;
+  color: #13284a;
+}
+
 .blog-title:hover {
   text-shadow: 0px;
   border-bottom: 2px solid #ff7417;
