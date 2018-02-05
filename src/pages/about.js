@@ -31,7 +31,7 @@ class About extends React.Component {
                 <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://drive.google.com/file/d/11cbgqy5bvnwnroCIubBJ936o7JQPdgl0/view?usp=sharing"> or here to save ink</a> ).
                 </p>
                 <div style={{marginTop: '40px'}}>
-                <Link to="/">Go home</Link>
+                <Link className="page-links" to="/">Go home</Link>
                 </div>
           </div>
         )

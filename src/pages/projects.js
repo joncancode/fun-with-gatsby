@@ -36,7 +36,7 @@ const Projects = () => (
     </div>
 
 
-    <Link style={{marginTop: '40px'}} to="/">Go home</Link>
+    <Link className="page-links" style={{marginTop: '40px'}} to="/">Go home</Link>
   </div>
 )
 

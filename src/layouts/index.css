@@ -630,8 +630,18 @@ pre tt:after {
 .page-title {
   font-family: 'American Typewriter, serif';
   font-weight: bold;
+  text-decoration: none;
   color: #13284a;
-  text-shadow: 2.5px 2.5px 3px #6abaef;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #13284a;
+}
+
+.blog-title:hover {
+  text-shadow: 0px;
+  border-bottom: 2px solid #ff7417;
 }
 
 .social-group:hover{
@@ -652,3 +662,6 @@ pre tt:after {
   border-bottom: 2px solid #ff7417;
 }
 
+.page-links:hover {
+  border-bottom: 2px solid #ff7417;
+}

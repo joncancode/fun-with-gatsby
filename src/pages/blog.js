@@ -11,7 +11,7 @@ const IndexPage = ({data}) => {
             <div>
               
               <h2 className="page-title">
-                <Link to={frontmatter.path}>
+                <Link className="blog-title" to={frontmatter.path}>
                 {frontmatter.title}
                 </Link>
               </h2>
