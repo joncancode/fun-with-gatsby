@@ -667,6 +667,10 @@ a:visited {
   border-bottom: 2px solid #ff7417;
 }
 
+.page-links {
+  font-weight: bold;
+}
+
 .page-links:hover {
   border-bottom: 2px solid #ff7417;
 }
