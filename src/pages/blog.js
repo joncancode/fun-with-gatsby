@@ -6,6 +6,8 @@ const IndexPage = ({data}) => {
     return (
       <div>
          {posts.map(({node: post}) => {
+           console.log('po', post)
+           console.log('po date', post.frontmatter)
           const { frontmatter } = post
           return(
             <div>
@@ -38,7 +40,7 @@ const IndexPage = ({data}) => {
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark {
+    allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount 
       edges {
         node {
