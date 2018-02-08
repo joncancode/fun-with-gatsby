@@ -6,20 +6,20 @@ const IndexPage = ({data}) => {
     return (
       <div>
          {posts.map(({node: post}) => {
-           console.log('po', post)
-           console.log('po date', post.frontmatter)
           const { frontmatter } = post
           return(
             <div>
               
+              
               <h2 className="page-title">
+              
                 <Link className="blog-title" to={frontmatter.path}>
                 {frontmatter.title}
-                </Link>
+                </Link> <span style={{fontSize: '18px', color: '#ff7417'}}>{frontmatter.date}</span>
               </h2>
-              <p>{frontmatter.date}</p>
-              <p>{frontmatter.excerpt}</p>
-              <ul>
+              
+              {/* <p>{frontmatter.excerpt}</p> */}
+              {/* <ul>
                 {post.frontmatter.tags.map(tag => {
                   return(
                     <li>
@@ -30,7 +30,7 @@ const IndexPage = ({data}) => {
                   )
                 })
                 }
-              </ul>
+              </ul> */}
             </div>
           )
         })}
