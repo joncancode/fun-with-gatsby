@@ -51,8 +51,7 @@ const styles = {
     padding: '15px',
   },
   posts: {
-     backgroundColor: '#e5eeff',
-    //border: '1px solid black',
+    backgroundColor: '#e5eeff',
     maxWidth: '85%',
     margin: '0 auto',
     padding: '50px',
