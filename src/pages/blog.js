@@ -18,8 +18,8 @@ const IndexPage = ({data}) => {
                 </Link>
               </h2>
               <p>{frontmatter.date}</p>
-              <p>{frontmatter.excerpt}</p>
-              <ul>
+              {/* <p>{frontmatter.excerpt}</p> */}
+              {/* <ul>
                 {post.frontmatter.tags.map(tag => {
                   return(
                     <li>
@@ -30,7 +30,7 @@ const IndexPage = ({data}) => {
                   )
                 })
                 }
-              </ul>
+              </ul> */}
             </div>
           )
         })}
