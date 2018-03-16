@@ -27,8 +27,8 @@ class About extends React.Component {
                 <strong> jc.haines19@gmail.com</strong>.
                 </p>
                 <p> My resume/CV can be found
-                <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://drive.google.com/file/d/1ineWI7GTVz3UkPN1WEp5EeWZLsConjsu/view?usp=sharing"> here </a>(
-                <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://drive.google.com/file/d/18mEckJSyKsAj4eEwjntj2dEGjFKmYOi2/view?usp=sharing"> or here to save ink</a> ).
+                <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://rebrand.ly/jon-res-color"> here </a>(
+                <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://rebrand.ly/jon-resume"> or here to save ink</a> ).
                 </p>
                 <div style={{marginTop: '40px'}}>
                 <Link className="page-links" to="/">Go home</Link>
