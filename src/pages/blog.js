@@ -6,8 +6,7 @@ const IndexPage = ({data}) => {
     return (
       <div>
          {posts.map(({node: post}) => {
-           console.log('po', post)
-           console.log('po date', post.frontmatter)
+
           const { frontmatter } = post
           return(
             <div>
