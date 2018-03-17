@@ -8,7 +8,7 @@ excerpt:
 
 This article first appeared on Medium [__here__](https://hackernoon.com/postgresql-explained-with-basketball-players-f99fb812c065)
 
-Computational complexity is a tricky subject to wrap one’s head around. Understanding runtime allows one to see how well a particular algorithm or data structure could scale within a computer. Unfortunately, it may be a bit abstract to try and think like a computer — for example, what does it mean to say that accessing a node in a linked list is O(n) while inserting a node is the more preferred O(1)? To truly get these concepts, let’s use real life (err.. Super Nintendo) examples to figure out what these terms mean..
+Computational complexity is a tricky subject to wrap one’s head around. Understanding runtime allows one to see how well a particular algorithm or data structure could scale within a computer. Unfortunately, it may be a bit abstract to try and think like a computer — for example, what does it mean to say that accessing a node in a linked list is O(n) while inserting a node is the more preferred O(1)? To truly get these concepts, let’s use real life (err.. Super Nintendo) examples to figure out what these terms mean. 
 
 ![Big O Cheat Sheet](https://cdn-images-1.medium.com/max/1200/1*BuW10tGA1gyCnUTYP3YeFQ.png)
 

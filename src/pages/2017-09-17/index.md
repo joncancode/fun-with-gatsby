@@ -10,7 +10,7 @@ This article first appeared on Medium [__here__](https://hackernoon.com/postgres
 
 Database can be a scary word. It’s often considered large and complicated, but they can work wonders for keeping your application neat and in order. For more on the differences between the two main types of databases, here is a primer that may be of assistance.
 
-As for what you’re about to read, I’d strongly recommend following along with PSequel, a GUI on Mac that allows you to see the data you are working with. Basketball, like many sports, is filled with data that makes it more interesting. A stat line is essential a chunk of data. Russell Westbrook might as well be a statistician with his triple-double prowess. And what better way to prepare for the upcoming basketball season than to prepare some databases based on player attributes..
+As for what you’re about to read, I’d strongly recommend following along with PSequel, a GUI on Mac that allows you to see the data you are working with. Basketball, like many sports, is filled with data that makes it more interesting. A stat line is essential a chunk of data. Russell Westbrook might as well be a statistician with his triple-double prowess. And what better way to prepare for the upcoming basketball season than to prepare some databases based on player attributes.
 
 ![Russell Westbrook](https://cdn-images-1.medium.com/max/1200/1*IW1nAu2fLYTDA4P75CDdmA.jpeg)
 

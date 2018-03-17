@@ -8,7 +8,7 @@ excerpt:
 
 This article first appeared on Medium [__here__](https://hackernoon.com/postgresql-explained-with-basketball-players-f99fb812c065)
 
-There are certain instances in my childhood that stand out above the rest. A good number of these involve some sort of video game, with my face glued to a screen. One of the earliest games I could remember was King’s Quest VI, a choose your own adventure game that ran on probably the first computer I ever touched. A few years later, I remember heading to the Toys ‘R’ Us in Sheepshead Bay, where I would make arguably one of the biggest decision a kid in Brooklyn could make in the mid-1990’s — Red version or Blue..
+There are certain instances in my childhood that stand out above the rest. A good number of these involve some sort of video game, with my face glued to a screen. One of the earliest games I could remember was King’s Quest VI, a choose your own adventure game that ran on probably the first computer I ever touched. A few years later, I remember heading to the Toys ‘R’ Us in Sheepshead Bay, where I would make arguably one of the biggest decision a kid in Brooklyn could make in the mid-1990’s — Red version or Blue.
 
 ![Red Blue](https://cdn-images-1.medium.com/max/1600/1*_MdfIi7rGx6Yz8rqXvcbKQ.jpeg)
 
