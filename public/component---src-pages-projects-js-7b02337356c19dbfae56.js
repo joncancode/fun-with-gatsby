@@ -1,0 +1,2 @@
+webpackJsonp([0xc260c743ec7c],{246:function(e,t,l){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=l(2),u=a(n),c=l(21),r=a(c),o=function(){return u.default.createElement("div",{style:{height:"60vh"}},u.default.createElement("h1",{className:"page-title"},"Hi from the project page"),u.default.createElement("p",null,"Under construction."),u.default.createElement(r.default,{style:{marginTop:"40px"},to:"/"},"Go home"))};t.default=o,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-projects-js-7b02337356c19dbfae56.js.map

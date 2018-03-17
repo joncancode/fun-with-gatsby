@@ -1,0 +1,182 @@
+{
+  "assetsByChunkName": {
+    "path---tags-computational-complexity": [
+      "path---tags-computational-complexity-102481b3837071120dd6.js",
+      "path---tags-computational-complexity-102481b3837071120dd6.js.map"
+    ],
+    "path---tags-python": [
+      "path---tags-python-6515398900c4d0f1d05f.js",
+      "path---tags-python-6515398900c4d0f1d05f.js.map"
+    ],
+    "path---tags-nba": [
+      "path---tags-nba-5b61cfbe2acd2257b5e7.js",
+      "path---tags-nba-5b61cfbe2acd2257b5e7.js.map"
+    ],
+    "path---tags-blog": [
+      "path---tags-blog-d255637f7a39eff89811.js",
+      "path---tags-blog-d255637f7a39eff89811.js.map"
+    ],
+    "path---second-post": [
+      "path---second-post-220ec87a308c27650386.js",
+      "path---second-post-220ec87a308c27650386.js.map"
+    ],
+    "path---blog-pokemon-python": [
+      "path---blog-pokemon-python-dd0e82bebe24c14df5f9.js",
+      "path---blog-pokemon-python-dd0e82bebe24c14df5f9.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-2ca873593e4433a77434.js",
+      "component---src-pages-index-js-2ca873593e4433a77434.js.map"
+    ],
+    "path---blog-big-o": [
+      "path---blog-big-o-4ef852684a6d567a8ac1.js",
+      "path---blog-big-o-4ef852684a6d567a8ac1.js.map"
+    ],
+    "path---blog": [
+      "path---blog-d1a448516cb0394f0aea.js",
+      "path---blog-d1a448516cb0394f0aea.js.map"
+    ],
+    "path---tags-graphql": [
+      "path---tags-graphql-31a938b25048fcd95ba4.js",
+      "path---tags-graphql-31a938b25048fcd95ba4.js.map"
+    ],
+    "component---src-templates-tags-js": [
+      "component---src-templates-tags-js-f9a8a6f4dec9d1a40211.js",
+      "component---src-templates-tags-js-f9a8a6f4dec9d1a40211.js.map"
+    ],
+    "path---tags-database": [
+      "path---tags-database-5835c3f3cca149d679dc.js",
+      "path---tags-database-5835c3f3cca149d679dc.js.map"
+    ],
+    "path---tags": [
+      "path---tags-0c2da226a25702a59225.js",
+      "path---tags-0c2da226a25702a59225.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---counter": [
+      "path---counter-a0e39f21c11f6a62c5ab.js",
+      "path---counter-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-runtime": [
+      "path---tags-runtime-0a03d49e9489b1d765f5.js",
+      "path---tags-runtime-0a03d49e9489b1d765f5.js.map"
+    ],
+    "path---tags-react": [
+      "path---tags-react-ee040fad86434f52b786.js",
+      "path---tags-react-ee040fad86434f52b786.js.map"
+    ],
+    "path---blog-postgresql": [
+      "path---blog-postgresql-faca26473d6052d12144.js",
+      "path---blog-postgresql-faca26473d6052d12144.js.map"
+    ],
+    "component---src-pages-counter-js": [
+      "component---src-pages-counter-js-204efd1fd7fb848e98bb.js",
+      "component---src-pages-counter-js-204efd1fd7fb848e98bb.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-console": [
+      "path---tags-console-da45d03ead2b9afd4cab.js",
+      "path---tags-console-da45d03ead2b9afd4cab.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-27d823939ccffac19092.js",
+      "component---src-templates-blog-post-js-27d823939ccffac19092.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-7ed57f6c919c18d5dc5d.js",
+      "component---src-layouts-index-js-7ed57f6c919c18d5dc5d.js.map"
+    ],
+    "path---tags-gatsby": [
+      "path---tags-gatsby-0ebf1938b794521a366e.js",
+      "path---tags-gatsby-0ebf1938b794521a366e.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-data-structures": [
+      "path---tags-data-structures-5a613eed52b556b22469.js",
+      "path---tags-data-structures-5a613eed52b556b22469.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-9b8642b4b1932a91a054.js",
+      "component---src-pages-404-js-9b8642b4b1932a91a054.js.map"
+    ],
+    "commons": [
+      "commons-d448434f76d1477446ac.js",
+      "commons-d448434f76d1477446ac.js.map"
+    ],
+    "path---tags-big-o-notation": [
+      "path---tags-big-o-notation-bb6a431d684abb440048.js",
+      "path---tags-big-o-notation-bb6a431d684abb440048.js.map"
+    ],
+    "path---tags-street-fighter": [
+      "path---tags-street-fighter-fa4dae6767e83d5d21fc.js",
+      "path---tags-street-fighter-fa4dae6767e83d5d21fc.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-algorithms": [
+      "path---tags-algorithms-55f65eb6c5b389dd58e1.js",
+      "path---tags-algorithms-55f65eb6c5b389dd58e1.js.map"
+    ],
+    "component---src-templates-all-tags-js": [
+      "component---src-templates-all-tags-js-e5022afc10182a046dc3.js",
+      "component---src-templates-all-tags-js-e5022afc10182a046dc3.js.map"
+    ],
+    "component---src-pages-blog-js": [
+      "component---src-pages-blog-js-a137f6d42d38b941f3b7.js",
+      "component---src-pages-blog-js-a137f6d42d38b941f3b7.js.map"
+    ],
+    "component---src-pages-projects-js": [
+      "component---src-pages-projects-js-ced5ce1495b02f61fbf8.js",
+      "component---src-pages-projects-js-ced5ce1495b02f61fbf8.js.map"
+    ],
+    "path---tags-pokemon": [
+      "path---tags-pokemon-463edd2940b500d432fd.js",
+      "path---tags-pokemon-463edd2940b500d432fd.js.map"
+    ],
+    "app": [
+      "app-b62af3001446b510aeb4.js",
+      "build-js-styles.css",
+      "app-b62af3001446b510aeb4.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---tags-web-development": [
+      "path---tags-web-development-430b1a505d1e132e244e.js",
+      "path---tags-web-development-430b1a505d1e132e244e.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-code": [
+      "path---tags-code-52f4c92bc91e2fc50187.js",
+      "path---tags-code-52f4c92bc91e2fc50187.js.map"
+    ],
+    "path---tags-postgresql": [
+      "path---tags-postgresql-5fa9a634d7586d9de8b3.js",
+      "path---tags-postgresql-5fa9a634d7586d9de8b3.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-2ddbcdbd1848175fc09f.js",
+      "component---src-pages-about-js-2ddbcdbd1848175fc09f.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---welcome": [
+      "path---welcome-9037637c8183095354c0.js",
+      "path---welcome-9037637c8183095354c0.js.map"
+    ]
+  }
+}

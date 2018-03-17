@@ -1,0 +1,2 @@
+webpackJsonp([49683490770531],{378:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{id:"/Users/jonathanhaines/Desktop/Code/gatsby/blog-1/src/pages/2017-12-12-tuesday/index.md absPath of file >>> MarkdownRemark",frontmatter:{title:"First post test",date:"12 13, 2017",path:"/first-post",tags:["gatsby","tuesday","react","graphql"],excerpt:"This is the first post"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---blog-cbd13939102c314d2810.js.map
