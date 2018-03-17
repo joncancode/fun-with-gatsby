@@ -47,7 +47,7 @@ const styles = {
     padding: '15px',
   },
   socialLinks: {
-    // color: '#6abaef',
+    //// color: '#6abaef',
     padding: '15px',
   },
   posts: {
