@@ -113,6 +113,13 @@ const Blog = () => (
           style={styles.navLinks}>
           projects 
       </Link>
+
+      <Link 
+          className="nav-group"
+          to="/blogposts"
+          style={styles.navLinks}>
+          blog 
+      </Link>
       {/* <Link 
           className="nav-group"
           to="/blog"

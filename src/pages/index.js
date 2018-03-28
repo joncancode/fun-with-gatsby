@@ -30,7 +30,8 @@ class About extends React.Component {
                 <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://rebrand.ly/jon-resume"> or here to save ink</a> ).
                 </p>
                 <div style={{marginTop: '40px'}}>
-                <Link className="page-links" to="/projects">See what I've done</Link>
+                <Link className="page-links" to="/projects">See what I've done</Link><br/><br/>
+                <Link className="page-links" to="/blogposts">See what I've written</Link>
                 </div>
           </div>
         )
