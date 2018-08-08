@@ -26,7 +26,7 @@ class About extends React.Component {
                 <strong> jc.haines19@gmail.com</strong>.
                 </p>
                 <p> My resume/CV can be found
-                <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://rebrand.ly/jonhaines-resume"> here </a>.
+                <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://rebrand.ly/jonhaines-resume"> here</a>.
                 </p>
                 <div style={{marginTop: '40px'}}>
                 <Link className="page-links" to="/projects">See what I've done</Link><br/><br/>
