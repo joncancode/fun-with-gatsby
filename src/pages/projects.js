@@ -1,11 +1,21 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+https://joncancode.github.io/jocamp/
+
 const Projects = () => (
   <div 
   style={{height: '110vh'}}
   >
     <h1 className="page-title">What I've been working on...</h1>
+    <div style={{textAlign: 'center'}}>
+    <h4 style={{paddingTop: '10px'}}>Joseph Campbell's Journey of the Hero as told by Star Wars</h4>
+    <div style={{paddingBottom: '5px'}}>
+    <button style={{border: '2px solid #6abaef', margin: '3px'}}><a target="_new" href="https://joncancode.github.io/jocamp/">Github</a></button>
+    <button style={{border: '2px solid #6abaef', margin: '3px'}}><a target="_new" href="https://joncancode.github.io/jocamp/">Demo</a></button>
+    <p style={{color: "#ff7417"}}>____________</p>
+    </div>
+    </div>
     <div style={{textAlign: 'center'}}>
     <h4 style={{paddingTop: '10px'}}>When Again?</h4>
     <div style={{paddingBottom: '5px'}}>
