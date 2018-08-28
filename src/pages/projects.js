@@ -5,7 +5,7 @@ https://joncancode.github.io/jocamp/
 
 const Projects = () => (
   <div 
-  style={{height: '110vh'}}
+  style={{height: '150vh'}}
   >
     <h1 className="page-title">What I've been working on...</h1>
     <div style={{textAlign: 'center'}}>
