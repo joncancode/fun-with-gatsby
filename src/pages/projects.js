@@ -11,7 +11,7 @@ const Projects = () => (
     <div style={{textAlign: 'center'}}>
     <h4 style={{paddingTop: '10px'}}>Joseph Campbell's Journey of the Hero as told by Star Wars</h4>
     <div style={{paddingBottom: '5px'}}>
-    <button style={{border: '2px solid #6abaef', margin: '3px'}}><a target="_new" href="https://joncancode.github.io/jocamp/">Github</a></button>
+    <button style={{border: '2px solid #6abaef', margin: '3px'}}><a target="_new" href="https://github.com/joncancode/jocamp">Github</a></button>
     <button style={{border: '2px solid #6abaef', margin: '3px'}}><a target="_new" href="https://joncancode.github.io/jocamp/">Demo</a></button>
     <p style={{color: "#ff7417"}}>____________</p>
     </div>
