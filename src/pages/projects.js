@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-https://joncancode.github.io/jocamp/
 
 const Projects = () => (
   <div 
