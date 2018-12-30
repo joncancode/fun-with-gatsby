@@ -8,6 +8,13 @@ const Projects = () => (
   >
     <h1 className="page-title">What I've been working on...</h1>
     <div style={{textAlign: 'center'}}>
+    <h4 style={{paddingTop: '10px'}}>NBA Milestones (to track Lebron's all time scoring</h4>
+    <div style={{paddingBottom: '5px'}}>
+    <button style={{border: '2px solid #6abaef', margin: '3px'}}><a target="_new" href="https://github.com/joncancode/d3-pie">Github</a></button>
+    <button style={{border: '2px solid #6abaef', margin: '3px'}}><a target="_new" href="https://pedantic-spence-fb0d84.netlify.com/">Demo</a></button>
+    <p style={{color: "#ff7417"}}>____________</p>
+    </div>
+    <div style={{textAlign: 'center'}}>
     <h4 style={{paddingTop: '10px'}}>NYKPie</h4>
     <div style={{paddingBottom: '5px'}}>
     <button style={{border: '2px solid #6abaef', margin: '3px'}}><a target="_new" href="https://github.com/joncancode/d3-pie">Github</a></button>

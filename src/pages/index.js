@@ -19,7 +19,7 @@ class About extends React.Component {
                 <strong> New York</strong>.
                 </p>
                 <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://github.com/joncancode"> I code</a>.
-                <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://scripted.org/volunteer/"> I teach</a>.
+                <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://www.eventbrite.com/o/thinkful-virtual-17048039731/"> I teach</a>.
                 <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://medium.com/@jc.haines19/"> I write</a>.
                 <a style={{color: '#ff7417'}} class="about-text-links" target="_new" href="https://jonathanhaines.smugmug.com/"> I photograph</a>.
                 <p> If you want to work with me, find me at
